@@ -29,6 +29,7 @@ export default function Header() {
 					<a
 						href="https://www.linkedin.com/in/samir-kotal-275b36252"
 						target="_blank"
+						aria-label="Checkout linkedin for more info"
 					>
 						<button className="py-2 px-3 bg-red-600 hover:bg-red-700 text-white border-none rounded-md">
 							Lets Connect

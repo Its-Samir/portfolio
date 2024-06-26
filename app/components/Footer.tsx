@@ -15,7 +15,7 @@ export default function Footer() {
 					<Socials />
 					<a
 						href="mailto:shubhod2k18@gmail.com"
-						className="rounded-md px-3 py-2 bg-teal-600 text-white hover:bg-teal-700 w-fit"
+						className="rounded-md px-3 py-2 bg-teal-700 text-white hover:bg-teal-600 w-fit"
 					>
 						Contact Me
 					</a>
