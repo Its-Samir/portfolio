@@ -32,7 +32,9 @@ export default function About() {
 					technologies and best practices, I&apos;m eager to bring fresh
 					ideas and a positive attitude to a collaborative team.
 				</p>
-				<Button>Lets Talk</Button>
+				<a href="mailto:shubhod2k18@gmail.com">
+					<Button aria-label="Contact me">Lets Talk</Button>
+				</a>
 			</div>
 		</div>
 	);

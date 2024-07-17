@@ -20,8 +20,12 @@ export default function KeySkillsAndKnowledge() {
 						ideas with other people, <strong>Creativity</strong>: Always
 						stay ready to learn about new technologies.
 					</p>
-					<a href="https://github.com/Its-Samir" target="_blank">
-						<Button className="w-fit">Explore</Button>
+					<a
+						href="https://github.com/Its-Samir"
+						target="_blank"
+						className="w-fit"
+					>
+						<Button>Explore</Button>
 					</a>
 				</div>
 			</div>
@@ -38,8 +42,8 @@ export default function KeySkillsAndKnowledge() {
 					<div className="flex flex-col gap-2">
 						<h2 className="text-2xl font-bold">Web Development</h2>
 						<p>
-							Developing dynamic, responsive websites that enhance user
-							engagement and business visibility.
+							Developing dynamic, responsive websites/web apps that
+							enhance user engagement and business visibility.
 						</p>
 					</div>
 				</div>
