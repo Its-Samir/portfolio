@@ -15,7 +15,7 @@ export default function About() {
 			<div className="flex flex-col items-start space-y-3 p-4 w-full lg:w-[35rem]">
 				<Heading>About Me</Heading>
 				<p className="text-slate-400">
-					Hi there! I&apos;m a passionate Fullstack Developer. My journey
+					Hi there! I&apos;m a Full-Stack Developer. My journey
 					in web development began with a fascination for how websites
 					work, leading me to dive deep into both frontend and backend
 					technologies.

@@ -38,7 +38,7 @@ export const ProjectData: ProjectDataType[] = [
 	},
 	{
 		img: "/assets/reacttodolist.png",
-		title: "Simple Todo App",
+		title: "Todo App",
 		desc: "",
 		techs: ["React"],
 		link: "https://the-react-todolist.netlify.app",

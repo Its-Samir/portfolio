@@ -58,8 +58,7 @@ export default function Projects() {
 				)}
 			</div>
 			<a
-				href="https://github.com/Its-Samir"
-				target="_blank"
+				href="/projects"
 				className="w-fit"
 			>
 				<Button>Explore</Button>

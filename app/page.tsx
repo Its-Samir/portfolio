@@ -9,7 +9,6 @@ import Footer from "./components/Footer";
 export default function Home() {
 	return (
 		<div className="xl:w-[75rem] mx-auto">
-			<Navbar />
 			<Header />
 			<hr className="lg:mx-auto mx-4" />
 			<About />
