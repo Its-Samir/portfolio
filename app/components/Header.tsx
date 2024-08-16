@@ -19,7 +19,7 @@ export default function Header() {
 					className="lg:text-5xl md:text-3xl text-[1.6rem] text-transparent bg-clip-text bg-gradient-to-t from-teal-600 to-teal-100 font-bold font-sans"
 					repeat={Infinity}
 				/> */}
-				<h1 className="lg:text-5xl md:text-3xl text-[1.6rem] animate-text text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-violet-600 to-blue-500 font-extrabold font-sans pb-0 md:pb-1">
+				<h1 className="lg:text-5xl text-3xl animate-text text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-violet-600 to-blue-500 font-extrabold font-sans pb-0 md:pb-1">
 					Web Developer
 				</h1>
 				<p className="text-slate-400 text-center md:text-left">
