@@ -6,11 +6,11 @@ export const Heading = React.forwardRef<
 >(({ children, className, ...props }, ref) => {
 	return (
 		<h1
-			className={`underline text-4xl font-bold font-sans text-teal-500 ${className}`}
+			className={`text-4xl font-bold font-sans text-teal-500 ${className}`}
 			{...props}
 			ref={ref}
 		>
-			{children}______
+			{children}
 		</h1>
 	);
 });
