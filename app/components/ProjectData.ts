@@ -76,6 +76,6 @@ export const ProjectData: ProjectDataType[] = [
 		title: "Shopping Cart",
 		desc: "",
 		techs: ["React", "TypeScript", "Firebase"],
-		link: "https://cartinflows.netlify.app",
+		link: "https://cartflow.netlify.app",
 	},
 ];
