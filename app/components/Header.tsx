@@ -35,11 +35,9 @@ export default function Header() {
 							Lets Connect
 						</button>
 					</a>
-					<Button>
-						<a href="/assets/resume.pdf" target="_blank">
-							My Resume
-						</a>
-					</Button>
+					<a href="/assets/resume.pdf" target="_blank">
+						<Button>My Resume</Button>
+					</a>
 				</div>
 				<Socials />
 			</div>
