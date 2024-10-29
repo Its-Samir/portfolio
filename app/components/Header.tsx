@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { TypeAnimation } from "react-type-animation";
 import Socials from "./ui/Socials";
 import { Button } from "./ui/Button";
 
@@ -12,13 +11,6 @@ export default function Header() {
 				<span className="font-bold text-2xl text-white">
 					Hey, I&apos;m <span className="text-teal-600">Samir</span>,
 				</span>
-				{/* <TypeAnimation
-					sequence={["a Learner", 1000, "a Web Developer", 1000]}
-					wrapper="h1"
-					speed={50}
-					className="lg:text-5xl md:text-3xl text-[1.6rem] text-transparent bg-clip-text bg-gradient-to-t from-teal-600 to-teal-100 font-bold font-sans"
-					repeat={Infinity}
-				/> */}
 				<h1 className="lg:text-5xl text-3xl animate-text text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-violet-600 to-blue-500 font-extrabold font-sans pb-0 md:pb-1">
 					Web Developer
 				</h1>
