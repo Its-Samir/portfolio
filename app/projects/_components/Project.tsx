@@ -1,7 +1,7 @@
-import ProjectDataType from "@/app/components/ProjectData";
 import React from "react";
+import { ProjectData } from "@/data/project-data";
 
-export default function Project({ title, link, techs }: ProjectDataType) {
+export default function Project({ title, link, techs }: ProjectData) {
 	return (
 		<div className="rounded-md p-4 border-2 border-slate-500 flex flex-col gap-2">
 			<h1 className="text-xl sm:text-2xl text-slate-400 font-bold">

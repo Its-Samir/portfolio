@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Heading } from "./ui/Heading";
 import { FaArrowRight } from "react-icons/fa";
 import { Button } from "./ui/Button";
-import { ProjectData } from "./ProjectData";
+import { PROJECT_DATA } from "@/data/project-data";
 
 export default function Projects() {
 	function handleOnClick(url: string) {
@@ -12,10 +12,13 @@ export default function Projects() {
 	}
 
 	return (
-		<div className="flex flex-col text-slate-400 gap-4 mt-4 p-2 md:p-4">
+		<section
+			id="projects"
+			className="flex flex-col text-slate-400 gap-4 mt-4 p-2 md:p-4"
+		>
 			<Heading>Projects</Heading>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4 transition-all">
-				{ProjectData.map(
+				{PROJECT_DATA.map(
 					(p, i) =>
 						i < 2 && (
 							<div
@@ -57,12 +60,9 @@ export default function Projects() {
 						)
 				)}
 			</div>
-			<a
-				href="/projects"
-				className="w-fit"
-			>
+			<a href="/projects" className="w-fit">
 				<Button>Explore</Button>
 			</a>
-		</div>
+		</section>
 	);
 }

@@ -4,7 +4,10 @@ import { Heading } from "./ui/Heading";
 
 export default function Techs() {
 	return (
-		<div className="flex md:flex-row flex-col justify-between gap-2 mt-4">
+		<section
+			id="techs"
+			className="flex md:flex-row flex-col justify-between gap-2 mt-4"
+		>
 			<div className="flex flex-col gap-4 sm:p-4 mt-0 md:mt-4 p-2 md:w-[35rem] w-auto">
 				<Heading>Technologies</Heading>
 				<h1 className="text-2xl text-slate-400 font-sans font-bold">
@@ -52,6 +55,6 @@ export default function Techs() {
 					priority
 				/>
 			</div>
-		</div>
+		</section>
 	);
 }

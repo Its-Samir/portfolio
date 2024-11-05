@@ -1,12 +1,12 @@
-export default interface ProjectDataType {
+export interface ProjectData {
 	img: string;
 	title: string;
-	desc?: String,
+	desc?: String;
 	techs: string[];
 	link: string;
 }
 
-export const ProjectData: ProjectDataType[] = [
+export const PROJECT_DATA: ProjectData[] = [
 	{
 		img: "/assets/docsdrive.png",
 		title: "DocsDrive - A File Management App",

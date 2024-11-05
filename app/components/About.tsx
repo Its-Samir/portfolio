@@ -4,7 +4,10 @@ import { Heading } from "./ui/Heading";
 
 export default function About() {
 	return (
-		<div className="flex md:flex-row flex-col md:justify-between justify-center">
+		<section
+			id="about"
+			className="flex md:flex-row flex-col md:justify-between justify-center"
+		>
 			<Image
 				src={"/assets/boy in table.png"}
 				alt="boy in table img"
@@ -15,9 +18,9 @@ export default function About() {
 			<div className="flex flex-col items-start space-y-3 p-4 w-full lg:w-[35rem]">
 				<Heading>About Me</Heading>
 				<p className="text-slate-400">
-					Hi there! I&apos;m a Full-Stack Developer. My journey
-					in web development began with a fascination for how websites
-					work, leading me to dive deep into both frontend and backend
+					Hi there! I&apos;m a Full-Stack Developer. My journey in web
+					development began with a fascination for how websites work,
+					leading me to dive deep into both frontend and backend
 					technologies.
 					<br />
 					<br />
@@ -36,6 +39,6 @@ export default function About() {
 					<Button aria-label="Contact me">Lets Talk</Button>
 				</a>
 			</div>
-		</div>
+		</section>
 	);
 }

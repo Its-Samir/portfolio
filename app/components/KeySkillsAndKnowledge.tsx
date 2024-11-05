@@ -4,7 +4,10 @@ import { Button } from "./ui/Button";
 
 export default function KeySkillsAndKnowledge() {
 	return (
-		<div className="flex justify-between md:flex-row flex-col mt-8">
+		<section
+			id="key-skills"
+			className="flex justify-between md:flex-row flex-col mt-8"
+		>
 			<div className="flex gap-4 px-4 md:w-[40rem]">
 				<div className="flex flex-col items-center">
 					<div className="bg-violet-700 rounded-full w-3 h-3 -m-1" />
@@ -64,6 +67,6 @@ export default function KeySkillsAndKnowledge() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }

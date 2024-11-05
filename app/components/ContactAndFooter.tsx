@@ -2,10 +2,13 @@ import Image from "next/image";
 import { Heading } from "./ui/Heading";
 import Socials from "./ui/Socials";
 
-export default function Footer() {
+export default function ContactAndFooter() {
 	return (
-		<div className="flex flex-col gap-3 p-2 sm:p-4">
-			<div className="flex flex-col md:flex-row justify-between items-start gap-4">
+		<>
+			<section
+				id="contact"
+				className="flex flex-col md:flex-row justify-between items-start gap-4 p-2 sm:p-4"
+			>
 				<div className="flex flex-col gap-3 w-auto md:w-[35rem]">
 					<Heading>Lets Connect</Heading>
 					<p className="text-slate-400">
@@ -28,13 +31,13 @@ export default function Footer() {
 					style={{ userSelect: "none" }}
 					className="w-full sm:w-[25rem] rounded-lg"
 				/>
-			</div>
+			</section>
 			<hr />
-			<div className="px-1 py-2 sm:px-4 bg-slate-900 rounded-md">
+			<footer className="px-1 py-2 sm:px-4 bg-slate-900 rounded-md">
 				<p className="sm:text-left text-center text-slate-200">
 					Made with ❤ by Samir, Copyright &copy; {new Date().getFullYear()}
 				</p>
-			</div>
-		</div>
+			</footer>
+		</>
 	);
 }
