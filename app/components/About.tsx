@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/Button";
-import { Heading } from "./ui/Heading";
+import { HeadingSecondary } from "./ui/Heading";
 
 export default function About() {
 	return (
@@ -13,10 +13,11 @@ export default function About() {
 				alt="boy in table img"
 				width={500}
 				height={500}
-				className="sm:h-[25rem] h-auto sm:w-[25rem] w-auto hover:scale-95 duration-200"
+				draggable="false"
+				className="sm:h-[25rem] h-auto sm:w-[25rem] w-auto hover:scale-95 duration-200 select-none"
 			/>
 			<div className="flex flex-col items-start space-y-3 p-4 w-full lg:w-[35rem]">
-				<Heading>About Me</Heading>
+				<HeadingSecondary>About Me</HeadingSecondary>
 				<p className="text-slate-400">
 					Hi there! I&apos;m a Full-Stack Developer. My journey in web
 					development began with a fascination for how websites work,

@@ -9,9 +9,10 @@ export default function Navbar() {
 				<Image
 					src={"/assets/favicon.ico"}
 					alt="logo-img"
+					draggable="false"
 					width={100}
 					height={100}
-					className="h-[2rem] sm:h-[2.5rem] w-[2rem] sm:w-[2.5rem]"
+					className="h-[2rem] sm:h-[2.5rem] w-[2rem] sm:w-[2.5rem] select-none"
 				/>
 			</Link>
 			<a href="#contact">

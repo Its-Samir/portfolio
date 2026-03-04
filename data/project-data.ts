@@ -1,4 +1,4 @@
-export interface ProjectData {
+			export interface ProjectData {
 	img: string;
 	title: string;
 	desc?: String;
@@ -21,6 +21,18 @@ export const PROJECT_DATA: ProjectData[] = [
 			"Prisma",
 		],
 		link: "https://docsdrive.netlify.app",
+	},
+	{
+		img: "/assets/formaze.png",
+		title: "Formaze - A Form Builder for React.js",
+		desc: "Formaze is a flexible and customizable form builder for React",
+		techs: [
+			"TypeScript",
+			"React-hook-form",
+			"Zod",
+			"TailwindCSS",
+		],
+		link: "https://www.npmjs.com/package/formaze",
 	},
 	{
 		img: "/assets/blogapp.png",

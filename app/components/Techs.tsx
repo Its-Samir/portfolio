@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Button } from "./ui/Button";
-import { Heading } from "./ui/Heading";
+import { HeadingSecondary } from "./ui/Heading";
 
 export default function Techs() {
 	return (
@@ -9,10 +9,10 @@ export default function Techs() {
 			className="flex md:flex-row flex-col justify-between gap-2 mt-4"
 		>
 			<div className="flex flex-col gap-4 sm:p-4 mt-0 md:mt-4 p-2 md:w-[35rem] w-auto">
-				<Heading>Technologies</Heading>
-				<h1 className="text-2xl text-slate-400 font-sans font-bold">
+				<HeadingSecondary>Technologies</HeadingSecondary>
+				<h3 className="text-2xl text-slate-400 font-sans font-bold">
 					Technologies that i have worked with:
-				</h1>
+				</h3>
 				<div className="flex flex-wrap gap-2 justify-start *:font-sans *:border *:border-slate-600 *:px-2 *:rounded-md *:text-slate-400 *:bg-transparent">
 					<span>JavaScript</span>
 					<span>TypeScript</span>
@@ -41,6 +41,7 @@ export default function Techs() {
 						height={300}
 						style={{ width: "auto", height: "auto", userSelect: "none" }}
 						className="hidden md:block"
+						draggable="false"
 					/>
 				</div>
 			</div>
@@ -51,7 +52,8 @@ export default function Techs() {
 					alt="techs-img"
 					width={500}
 					height={500}
-					className="w-full md:w-[30rem]"
+					draggable="false"
+					className="w-full md:w-[30rem] select-none"
 					priority
 				/>
 			</div>

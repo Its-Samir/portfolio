@@ -3,13 +3,14 @@
 import Image from "next/image";
 import Socials from "./ui/Socials";
 import { Button } from "./ui/Button";
+import PackageCard from "./Package";
 
 export default function Header() {
 	return (
 		<header className="flex md:flex-row flex-col md:justify-between items-center gap-2 py-4">
 			<div className="gap-2 sm:gap-3 flex flex-col md:items-start items-center sm:p-4 p-2 md:w-[35rem] w-full">
 				<span className="font-bold text-2xl text-white">
-					Hey, I&apos;m <span className="text-teal-600">Samir</span>,
+					Hey, I&apos;m <span className="text-teal-600 tracking-tight">Samir</span>,
 				</span>
 				<h1 className="lg:text-5xl text-3xl animate-text text-transparent bg-clip-text bg-gradient-to-r from-teal-500 via-violet-600 to-blue-500 font-extrabold font-sans pb-0 md:pb-1">
 					Web Developer
@@ -32,6 +33,7 @@ export default function Header() {
 					</a>
 				</div>
 				<Socials />
+				<PackageCard />
 			</div>
 			<Image
 				src={"/assets/boy-img.jpg"}
@@ -39,7 +41,9 @@ export default function Header() {
 				priority
 				width={500}
 				height={500}
-				className="animate-wave lg:h-[25rem] lg:w-[30rem] sm:h-[20rem] sm:w-[25rem] h-auto w-auto"
+				draggable="false"
+				style={{ userSelect: "none" }}
+				className="animate-wave lg:h-[25rem] lg:w-[30rem] sm:h-[20rem] sm:w-[25rem] h-auto w-auto select-none"
 			/>
 		</header>
 	);

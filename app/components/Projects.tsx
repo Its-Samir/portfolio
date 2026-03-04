@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Heading } from "./ui/Heading";
+import { HeadingSecondary } from "./ui/Heading";
 import { FaArrowRight } from "react-icons/fa";
 import { Button } from "./ui/Button";
 import { PROJECT_DATA } from "@/data/project-data";
@@ -16,7 +16,7 @@ export default function Projects() {
 			id="projects"
 			className="flex flex-col text-slate-400 gap-4 mt-4 p-2 md:p-4"
 		>
-			<Heading>Projects</Heading>
+			<HeadingSecondary>Projects</HeadingSecondary>
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-4 transition-all">
 				{PROJECT_DATA.map(
 					(p, i) =>
@@ -35,7 +35,8 @@ export default function Projects() {
 									alt={p.title}
 									width={500}
 									height={500}
-									style={{ width: "auto", height: "100%" }}
+									draggable="false"
+									style={{ width: "auto", height: "100%", userSelect: "none" }}
 								/>
 								<div className="absolute text-sm bg-neutral-900/80 h-full w-full left-0 bottom-0 p-2 invisible group-hover:visible duration-200 flex flex-col justify-end gap-2 md:text-base">
 									<p className="text-white">{p.desc}</p>
@@ -53,7 +54,7 @@ export default function Projects() {
 										className="text-blue-500 bg-transparent flex items-center gap-2 w-fit hover:text-blue-600"
 									>
 										<span className="peer">Visit Project</span>{" "}
-										<FaArrowRight className="peer-hover:ml-1" />
+										<span className="peer-hover:ml-1">→</span>
 									</button>
 								</div>
 							</div>

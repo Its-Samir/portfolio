@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Heading } from "./ui/Heading";
+import { HeadingSecondary } from "./ui/Heading";
 import Socials from "./ui/Socials";
 
 export default function ContactAndFooter() {
@@ -10,7 +10,7 @@ export default function ContactAndFooter() {
 				className="flex flex-col md:flex-row justify-between items-start gap-4 p-2 sm:p-4"
 			>
 				<div className="flex flex-col gap-3 w-auto md:w-[35rem]">
-					<Heading>Lets Connect</Heading>
+					<HeadingSecondary>Lets Connect</HeadingSecondary>
 					<p className="text-slate-400">
 						If you like the work you can connect with me, It would be nice
 						to connect with you.
@@ -26,10 +26,10 @@ export default function ContactAndFooter() {
 				<Image
 					src={"/assets/lets-connect.jpg"}
 					alt={"lets-connect-img"}
+					draggable="false"
 					width={500}
 					height={500}
-					style={{ userSelect: "none" }}
-					className="w-full sm:w-[25rem] rounded-lg"
+					className="w-full sm:w-[25rem] rounded-lg select-none"
 				/>
 			</section>
 			<hr />
