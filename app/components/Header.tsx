@@ -28,7 +28,7 @@ export default function Header() {
 							Lets Connect
 						</button>
 					</a>
-					<a href="/assets/resume.pdf" target="_blank">
+					<a href="" target="_blank">
 						<Button>My Resume</Button>
 					</a>
 				</div>
